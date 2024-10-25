@@ -157,8 +157,10 @@ function updateNote(id, newContent) {
 }
 
 function searchNotes(search) {
+    const lowerCaseSearch = search.toLowerCase();
+
     const searchResults = getNotes().filter((note) =>
-        note.content.includes(search)
+        note.content.toLowerCase().includes(lowerCaseSearch) 
     );
 
     if (search !== "") {
@@ -176,6 +178,7 @@ function searchNotes(search) {
 
     showNotes();
 }
+
 
 function exportData() {
     const notes = JSON.parse(localStorage.getItem("notes") || "[]");
