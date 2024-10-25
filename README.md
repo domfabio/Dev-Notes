@@ -23,7 +23,7 @@
 
 ## 📸 Screenshots
 <p align="center">
-  <img src="./img/screen.png" alt="Captura de tela" width="600" height="auto">
+  <img src="./img/anime.gif" alt="Captura de tela" width="600" height="auto">
 </p>
 
 <br />
