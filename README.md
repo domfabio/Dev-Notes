@@ -36,7 +36,7 @@
   <li><strong>Eventos de Interface Dinâmica:</strong> Utilização de cliques e teclas para adicionar, fixar, duplicar e excluir notas, mantendo a navegação fluida.</li>
   <li><strong>Armazenamento Local</strong>  (<code>localStorage</code>): Persistência de dados para retenção entre sessões.</li>
   <li><strong>Exportação de Dados:</strong> Implementação de exportação em CSV para backup e acessibilidade.</li>
-  <li><strong>Duplicação de Notas:</strong> Uso de uma função dedicada para replicar conteúdo, facilitando a criação rápida de anotações similares.</li>
+  <li><strong>Duplicação de Notas:</strong> Uso de uma função aplicada para replicar conteúdo, facilitando a criação rápida de anotações similares.</li>
 </ul>
 
 
